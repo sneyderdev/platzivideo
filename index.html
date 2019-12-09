@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PlatziVideo</title>
+    <link rel="shortcut icon" href="images/platzi_favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- Font Awesone Icons -->
+    <script src="https://kit.fontawesome.com/a42ccc6984.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="overlay" id="overlay"></div> <!-- Overlay -->
+    <div class="hamburguesa" id="burger_btn"> <!-- Burguer Button  -->
+      <div class="icono_hamburguesa"></div>
+      <div class="icono_hamburguesa"></div>
+      <div class="icono_hamburguesa"></div>
+    </div>
+    <div class="wrapper">
+      <div class="grid-container">
+        <!-- Sidebar start -->
+        <aside class="main_sidebar" id="sidebar"> 
+          <h1 class="logo"> <!-- Logo -->
+            <a href="#" class="logo-link">
+              <figure class="logo-img">
+                <img src="images/platzi_favicon.png" alt="Icono">
+              </figure>
+              Platzi<span>Video</span>
+            </a>
+          </h1>
+          <div class="playlist"> <!-- My Playlist -->
+            <h3 class="playlist-title">Mi Playlist</h3>
+            <ol class="list">
+              <a href="https://www.youtube.com/embed/uETaGxrAtYo" target="_blank" class="video-link">
+                <li class="list-video">El otro Internet, el que pocos usan | Platzi</li>
+              </a>
+              <a href="https://www.youtube.com/embed/1oiTB_4tcx0" target="_blank" class="video-link">
+                <li class="list-video">Qué está pasando en Colombia y por qué hay protestas | PlatziLive</li>
+              </a>
+              <a href="https://www.youtube.com/embed/rAoEtlB3fbU" target="_blank" class="video-link">
+                <li class="list-video">Intentos de hackeo y estafas con phishing en las que caen tus jefes (y tú)</li>
+              </a>
+              <a href="https://www.youtube.com/embed/CFvy6zSsOEc" target="_blank" class="video-link">
+                <li class="list-video">Tendencias de la Inteligencia Artificial para 2020</li>
+              </a>
+              <a href="https://www.youtube.com/embed/_2lvOpJMoOM" target="_blank" class="video-link">
+                <li class="list-video">Crece WT.Social, la red social anti-Facebook de Jimmy Wales</li>
+              </a>
+              <a href="https://www.youtube.com/embed/ZTU9FaLFYzo" target="_blank" class="video-link">
+                <li class="list-video">¿Especializarte o saber de todo? Así decide aprender tu cerebro | PlatziLive</li>
+              </a>
+              <a href="https://www.youtube.com/embed/ExsGyZDBlJQ" target="_blank" class="video-link">
+                <li class="list-video">La ruta de aprendizaje de un desarrollador web profesional | PlatziLive</li>
+              </a>
+              <a href="https://www.youtube.com/embed/YmOf757B2T4" target="_blank" class="video-link">
+                <li class="list-video">¿En qué invertir mis ahorros? | PlatziLive</li>
+              </a>
+              <a href="https://www.youtube.com/embed/GVEfy-A-2OA" target="_blank" class="video-link">
+                <li class="list-video">Por qué hay protestas en Chile | PlatziLive</li>
+              </a>
+              <a href="https://www.youtube.com/embed/DinilgacaWs" target="_blank" class="video-link">
+                <li class="list-video">¿Qué es Git?</li>
+              </a>
+            </ol>
+          </div>
+          <div class="playlist_friend"> <!-- Friends Playlist -->
+            <div class="friends-container">
+              <h3 class="playlist-title">Playlist de Amigos</h3>
+              <ul class="friends_list">
+                <a href="#" class="friend_link">
+                  <li class="friend">
+                    <figure class="user">
+                      <img src="images/user.jpg" alt="Amigo" class="user-img">
+                    </figure>
+                    <span>Sneyder Barreto</span>
+                  </li>
+                </a>
+                <a href="#" class="friend_link">
+                  <li class="friend">
+                    <figure class="user">
+                      <img src="images/user.jpg" alt="Amigo" class="user-img">
+                    </figure>
+                    <span>Sneyder Barreto</span>
+                  </li>
+                </a>
+                <a href="#" class="friend_link">
+                  <li class="friend">
+                    <figure class="user">
+                      <img src="images/user.jpg" alt="Amigo" class="user-img">
+                    </figure>
+                    <span>Sneyder Barreto</span>
+                  </li>
+                </a>
+                <a href="#" class="friend_link">
+                  <li class="friend">
+                    <figure class="user">
+                      <img src="images/user.jpg" alt="Amigo" class="user-img">
+                    </figure>
+                    <span>Sneyder Barreto</span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </aside>
+        <!-- Sidebar end -->
+  
+        <!-- Main Section start -->
+        <section class="main_section">
+          <div class="player">  <!-- Player -->
+            <div class="player-video">
+              <iframe src="https://www.youtube.com/embed/uETaGxrAtYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+            </div>
+            <div class="info">
+              <div class="info-video">
+                <h2 class="info-video-name">El otro Internet, el que pocos usan | Platzi</h2>
+                <span class="info-video-views">62,315 views</span>
+              </div>
+              <div class="info-manage">
+                <div class="manage">
+                  <button class="add">Agregar a mi lista</button>
+                  <a href="#" class="manage-link">
+                    <i class="fas fa-share"></i>
+                    <span class="link_text">Compartir</span>
+                  </a>
+                  <a href="#" class="manage-link">
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <span class="link_text">Guardar</span>
+                  </a>
+                </div>
+                <div class="category">
+                  <ul class="category_list">
+                    <a href="#" class="category_link">
+                      <li class="category-name">Tech</li>
+                    </a>
+                    <a href="#" class="category_link">
+                      <li class="category-name">Platzi</li>
+                    </a>
+                    <a href="#" class="category_link">
+                      <li class="category-name">Internet</li>
+                    </a>
+                    <a href="#" class="category_link">
+                      <li class="category-name">Education</li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="community"> <!-- Community -->
+            <div class="comments">
+              <h3 class="playlist-title">Comentarios</h3>
+              <form action="#" class="add_comment">
+                <figure class="user">
+                  <img src="images/user.jpg" alt="Usuario" class="user-img">
+                </figure>
+                <input type="text" placeholder="Añade un comentario">
+              </form>
+              <div class="review_comments">
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.jpg" alt="Usuario" class="user-img">
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user_name">Sneyder Barreto</h4>
+                    <p class="comment_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, atque.</p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.jpg" alt="Usuario" class="user-img">
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user_name">Sneyder Barreto</h4>
+                    <p class="comment_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, atque.</p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <figure class="user">
+                    <img src="images/user.jpg" alt="Usuario" class="user-img">
+                  </figure>
+                  <div class="comment-content">
+                    <h4 class="user_name">Sneyder Barreto</h4>
+                    <p class="comment_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, atque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="suggestions">
+              <h3 class="playlist-title">Sugerencias</h3>
+              <div class="suggestion_container">
+                <div class="suggestion">
+                  <a href="https://www.youtube.com/embed/1oiTB_4tcx0" target="_blank" class="suggestion-link">
+                    <iframe src="https://www.youtube.com/embed/1oiTB_4tcx0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+                    <h4 class="suggestion-title">Qué está pasando en Colombia y por qué hay protestas | PlatziLive</h4>
+                  </a>
+                </div>
+                <div class="suggestion">
+                  <a href="https://www.youtube.com/embed/rAoEtlB3fbU" target="_blank" class="suggestion-link">
+                    <iframe src="https://www.youtube.com/embed/rAoEtlB3fbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+                    <h4 class="suggestion-title">Intentos de hackeo y estafas con phishing en las que caen tus jefes (y tú)</h4>
+                  </a>
+                </div>
+                <div class="suggestion">
+                  <a href="https://www.youtube.com/embed/CFvy6zSsOEc" target="_blank" class="suggestion-link">
+                    <iframe src="https://www.youtube.com/embed/CFvy6zSsOEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+                    <h4 class="suggestion-title">Tendencias de la Inteligencia Artificial para 2020</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Main Section end -->
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/responsive.js"></script>
+  </body>
+</html>
