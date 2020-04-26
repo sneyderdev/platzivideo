@@ -24,7 +24,7 @@
 
   .overlay_open { /* JS */
     left: 0;
-  }  
+  }
 
   /*----- BURGER BUTTON -----*/
   .hamburguesa {
@@ -38,7 +38,7 @@
     background: var(--light-green-color);
     box-shadow: 0px 0px 5px var(--green-color);
   }
-  
+
   .icono_hamburguesa {
     position: relative;
     width: 20px;
@@ -48,16 +48,16 @@
     background: var(--white-color);
     transition: all .1s;
   }
-  
+
   .cambio .icono_hamburguesa:nth-of-type(1) {
     transform: rotate(45deg);
     top: 7.5px;
   }
-  
+
   .cambio .icono_hamburguesa:nth-of-type(2) {
     opacity: 0;
   }
-  
+
   .cambio .icono_hamburguesa:nth-of-type(3) {
     transform: rotate(-45deg);
     top: -6.5px;
